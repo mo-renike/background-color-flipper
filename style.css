@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.navBar{
+    display: block;
+    text-align: center;
+    background-color: #bfceda;
+}
+.infi{
+    background-color: khaki;
+}
+body{
+    color: #111111;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+.innerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 1px solid #111111;
+}
+
+a{
+    color: #eeeeee;
+}
+
+.button,
+.innerNav a{
+    text-decoration: none;
+    border: 1px solid #111111;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 20px;
+    color: inherit;
+}
+
+.container{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
